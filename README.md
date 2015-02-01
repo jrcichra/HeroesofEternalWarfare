@@ -2,7 +2,7 @@
 A MOBA type game being developed by a group of kids who want to hone their programming/graphics skills.
 
 ## Developers
-* Demodude123 (http://demodude123.netne.net)
+* [Demodude123](http://demodude123.netne.net)
 * [Feliks Montez](https://plus.google.com/u/0/105142104742103301467/posts)
 * Voper45
 
