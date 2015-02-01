@@ -1,4 +1,4 @@
-# HeroesofEternalWarfare (name not final)
+# (Unity) Heroes of Eternal Warfare (name not final)
 A MOBA type game being developed by a group of kids who want to hone their programming/graphics skills.
 
 ## Developers
@@ -10,6 +10,9 @@ A MOBA type game being developed by a group of kids who want to hone their progr
 * 3D graphics
 * Ancient Ruins map
 * Test model
+<<<<<<< HEAD
 
 ## Installation
 Sorry, but at this time there is not yet anything to install! :(
+=======
+>>>>>>> origin/master
