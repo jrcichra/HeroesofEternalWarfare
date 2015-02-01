@@ -2,14 +2,17 @@
 A MOBA type game being developed by a group of kids who want to hone their programming/graphics skills.
 
 ## Developers
-* [Demodude123](http://demodude123.netne.net)
-* [Feliks Montez](https://plus.google.com/u/0/105142104742103301467/posts)
-* [Voper45](https://github.com/voper45)
+* [Demodude123](http://demodude123.netne.net) (primary coder)
+* [Feliks Montez](https://plus.google.com/u/0/105142104742103301467/posts) (coder/modeler)
+* [Voper45](https://github.com/voper45) (primary modeler)
 
 ## Current Game Features
-* 3D graphics
+* 3D Unity graphics engine
 * Ancient Ruins map
-* Test model
+* Player model
 
 ## Installation
-Sorry, but at this time there is not yet anything to install! :(
+Sorry, but at this time there is not yet anything to install. Please continue to check back for more updates.
+
+## Contributing
+If you would like to contribute to this project, too bad! We are not accepting new contributors at the moment. If you REALLY want to help us, email [Feliks Montez](mailto:feliks.montez@gmail.com).
