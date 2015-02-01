@@ -10,9 +10,6 @@ A MOBA type game being developed by a group of kids who want to hone their progr
 * 3D graphics
 * Ancient Ruins map
 * Test model
-<<<<<<< HEAD
 
 ## Installation
 Sorry, but at this time there is not yet anything to install! :(
-=======
->>>>>>> origin/master
