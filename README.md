@@ -20,8 +20,5 @@ We are not accepting new contributors at the moment.
 If you REALLY want to help us, contact [Feliks Montez](mailto:feliks.montez@gmail.com) and we will consider adding you as a contributor.
 
 ## Team Advice
-> "Now is the most time you'll ever have
-> to work toward your goals. Don't put them
-> off until you have more time. You will
-> never have more time."
-> - *Feliks Montez*
+> "Now is the most time you'll ever have to work toward your goals. Don't put them off until you have more time. You will never have more time."
+> \- *Feliks Montez*
