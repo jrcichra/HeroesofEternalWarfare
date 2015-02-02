@@ -1,0 +1,590 @@
+fileFormatVersion: 2
+guid: e2f3430b506ef39489bf504a53ff88c1
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature
+    100002: BaseBone_008
+    100004: BaseBone_012
+    100006: BaseBone_014
+    100008: BaseBone_016
+    100010: BaseBone_018
+    100012: BaseBone_020
+    100014: BaseBone_022
+    100016: BaseBone_024
+    100018: BaseBone_026
+    100020: BaseBone_038
+    100022: BaseBone_040
+    100024: BaseBone_042
+    100026: BaseBone_044
+    100028: BaseBone_054
+    100030: BaseBone_056
+    100032: BaseBone_058
+    100034: BaseBone_060
+    100036: BaseBone_062
+    100038: BaseBone_064
+    100040: BaseBone_066
+    100042: BaseBone_068
+    100044: Collar
+    100046: Cube
+    100048: //RootNode
+    100050: Head
+    100052: Hips
+    100054: LeftArmLower
+    100056: LeftArmUpper
+    100058: LeftFoot
+    100060: LeftFootIK
+    100062: LeftHip
+    100064: LeftIndexFingerIK
+    100066: LeftMiddle1
+    100068: LeftMiddle2
+    100070: LeftMiddle3
+    100072: LeftMiddle4
+    100074: LeftMiddleFingerIK
+    100076: LeftPinky1
+    100078: LeftPinky2
+    100080: LeftPinky3
+    100082: LeftPinky4
+    100084: LeftPinkyFingerIK
+    100086: LeftPointer1
+    100088: LeftPointer2
+    100090: LeftPointer3
+    100092: LeftPointer4
+    100094: LeftRing1
+    100096: LeftRing2
+    100098: LeftRing3
+    100100: LeftRing4
+    100102: LeftRingFingerIK
+    100104: LeftShin
+    100106: LeftShoulder
+    100108: LeftThigh
+    100110: LeftThumb1
+    100112: LeftThumb2
+    100114: LeftThumb3
+    100116: LeftThumbIK
+    100118: LeftToes
+    100120: LeftWrist
+    100122: Neck
+    100124: RightFoot
+    100126: RightFootIK
+    100128: RightForearm
+    100130: RightHip
+    100132: RightIndexFingerIK
+    100134: RightMiddleFingerIK
+    100136: RightMiddleFingerPole
+    100138: RightPinkyFingerPole
+    100140: RightRingFingerIK
+    100142: RightRingFingerPole
+    100144: RightShin
+    100146: RightShoulder
+    100148: RightThigh
+    100150: RightThumbIK
+    100152: RightToes
+    100154: Root
+    100156: Torso
+    400000: Armature
+    400002: BaseBone_008
+    400004: BaseBone_012
+    400006: BaseBone_014
+    400008: BaseBone_016
+    400010: BaseBone_018
+    400012: BaseBone_020
+    400014: BaseBone_022
+    400016: BaseBone_024
+    400018: BaseBone_026
+    400020: BaseBone_038
+    400022: BaseBone_040
+    400024: BaseBone_042
+    400026: BaseBone_044
+    400028: BaseBone_054
+    400030: BaseBone_056
+    400032: BaseBone_058
+    400034: BaseBone_060
+    400036: BaseBone_062
+    400038: BaseBone_064
+    400040: BaseBone_066
+    400042: BaseBone_068
+    400044: Collar
+    400046: Cube
+    400048: //RootNode
+    400050: Head
+    400052: Hips
+    400054: LeftArmLower
+    400056: LeftArmUpper
+    400058: LeftFoot
+    400060: LeftFootIK
+    400062: LeftHip
+    400064: LeftIndexFingerIK
+    400066: LeftMiddle1
+    400068: LeftMiddle2
+    400070: LeftMiddle3
+    400072: LeftMiddle4
+    400074: LeftMiddleFingerIK
+    400076: LeftPinky1
+    400078: LeftPinky2
+    400080: LeftPinky3
+    400082: LeftPinky4
+    400084: LeftPinkyFingerIK
+    400086: LeftPointer1
+    400088: LeftPointer2
+    400090: LeftPointer3
+    400092: LeftPointer4
+    400094: LeftRing1
+    400096: LeftRing2
+    400098: LeftRing3
+    400100: LeftRing4
+    400102: LeftRingFingerIK
+    400104: LeftShin
+    400106: LeftShoulder
+    400108: LeftThigh
+    400110: LeftThumb1
+    400112: LeftThumb2
+    400114: LeftThumb3
+    400116: LeftThumbIK
+    400118: LeftToes
+    400120: LeftWrist
+    400122: Neck
+    400124: RightFoot
+    400126: RightFootIK
+    400128: RightForearm
+    400130: RightHip
+    400132: RightIndexFingerIK
+    400134: RightMiddleFingerIK
+    400136: RightMiddleFingerPole
+    400138: RightPinkyFingerPole
+    400140: RightRingFingerIK
+    400142: RightRingFingerPole
+    400144: RightShin
+    400146: RightShoulder
+    400148: RightThigh
+    400150: RightThumbIK
+    400152: RightToes
+    400154: Root
+    400156: Torso
+    4300000: Cube
+    7400000: Default Take
+    7400002: walk
+    9500000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Hips
+        weight: 1
+      - path: Armature/Root/Hips/Torso
+        weight: 1
+      - path: Armature/Root/Hips/Torso/Collar
+        weight: 1
+      - path: Armature/Root/Hips/Torso/Collar/Neck
+        weight: 1
+      - path: Armature/Root/Hips/Torso/Collar/Neck/Head
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftIndexFingerIK
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftMiddle1
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftMiddle1/LeftMiddle2
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftMiddle1/LeftMiddle2/LeftMiddle3
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftMiddle1/LeftMiddle2/LeftMiddle3/LeftMiddle4
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftMiddleFingerIK
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftPinky1
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftPinky1/LeftPinky2
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftPinky1/LeftPinky2/LeftPinky3
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftPinky1/LeftPinky2/LeftPinky3/LeftPinky4
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftPinkyFingerIK
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftPointer1
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftPointer1/LeftPointer2
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftPointer1/LeftPointer2/LeftPointer3
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftPointer1/LeftPointer2/LeftPointer3/LeftPointer4
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftRing1
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftRing1/LeftRing2
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftRing1/LeftRing2/LeftRing3
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftRing1/LeftRing2/LeftRing3/LeftRing4
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftRingFingerIK
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftThumb1
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftThumb1/LeftThumb2
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftThumb1/LeftThumb2/LeftThumb3
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftThumbIK
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_014
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_014/BaseBone_016
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_014/BaseBone_016/BaseBone_018
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_020
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_020/BaseBone_022
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_020/BaseBone_022/BaseBone_024
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_020/BaseBone_022/BaseBone_024/BaseBone_026
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_038
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_038/BaseBone_040
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_038/BaseBone_040/BaseBone_042
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_038/BaseBone_040/BaseBone_042/BaseBone_044
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_054
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_054/BaseBone_056
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_054/BaseBone_056/BaseBone_058
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_054/BaseBone_056/BaseBone_058/BaseBone_060
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_062
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_062/BaseBone_064
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_062/BaseBone_064/BaseBone_066
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_062/BaseBone_064/BaseBone_066/BaseBone_068
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/RightIndexFingerIK
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/RightMiddleFingerIK
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/RightMiddleFingerPole
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/RightPinkyFingerPole
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/RightRingFingerIK
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/RightRingFingerPole
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/RightThumbIK
+        weight: 1
+      - path: Armature/Root/LeftHip
+        weight: 1
+      - path: Armature/Root/LeftHip/LeftFootIK
+        weight: 1
+      - path: Armature/Root/LeftHip/LeftFootIK/LeftFoot
+        weight: 1
+      - path: Armature/Root/LeftHip/LeftFootIK/LeftFoot/LeftToes
+        weight: 1
+      - path: Armature/Root/LeftHip/LeftThigh
+        weight: 1
+      - path: Armature/Root/LeftHip/LeftThigh/LeftShin
+        weight: 1
+      - path: Armature/Root/RightHip
+        weight: 1
+      - path: Armature/Root/RightHip/RightFootIK
+        weight: 1
+      - path: Armature/Root/RightHip/RightFootIK/RightFoot
+        weight: 1
+      - path: Armature/Root/RightHip/RightFootIK/RightFoot/RightToes
+        weight: 1
+      - path: Armature/Root/RightHip/RightThigh
+        weight: 1
+      - path: Armature/Root/RightHip/RightThigh/RightShin
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: walk
+      takeName: walk
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Hips
+        weight: 1
+      - path: Armature/Root/Hips/Torso
+        weight: 1
+      - path: Armature/Root/Hips/Torso/Collar
+        weight: 1
+      - path: Armature/Root/Hips/Torso/Collar/Neck
+        weight: 1
+      - path: Armature/Root/Hips/Torso/Collar/Neck/Head
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftIndexFingerIK
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftMiddle1
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftMiddle1/LeftMiddle2
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftMiddle1/LeftMiddle2/LeftMiddle3
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftMiddle1/LeftMiddle2/LeftMiddle3/LeftMiddle4
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftMiddleFingerIK
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftPinky1
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftPinky1/LeftPinky2
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftPinky1/LeftPinky2/LeftPinky3
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftPinky1/LeftPinky2/LeftPinky3/LeftPinky4
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftPinkyFingerIK
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftPointer1
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftPointer1/LeftPointer2
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftPointer1/LeftPointer2/LeftPointer3
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftPointer1/LeftPointer2/LeftPointer3/LeftPointer4
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftRing1
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftRing1/LeftRing2
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftRing1/LeftRing2/LeftRing3
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftRing1/LeftRing2/LeftRing3/LeftRing4
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftRingFingerIK
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftThumb1
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftThumb1/LeftThumb2
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftThumb1/LeftThumb2/LeftThumb3
+        weight: 1
+      - path: Armature/Root/Hips/Torso/LeftShoulder/LeftArmUpper/LeftArmLower/LeftWrist/LeftThumbIK
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_014
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_014/BaseBone_016
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_014/BaseBone_016/BaseBone_018
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_020
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_020/BaseBone_022
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_020/BaseBone_022/BaseBone_024
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_020/BaseBone_022/BaseBone_024/BaseBone_026
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_038
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_038/BaseBone_040
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_038/BaseBone_040/BaseBone_042
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_038/BaseBone_040/BaseBone_042/BaseBone_044
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_054
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_054/BaseBone_056
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_054/BaseBone_056/BaseBone_058
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_054/BaseBone_056/BaseBone_058/BaseBone_060
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_062
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_062/BaseBone_064
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_062/BaseBone_064/BaseBone_066
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/BaseBone_062/BaseBone_064/BaseBone_066/BaseBone_068
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/RightIndexFingerIK
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/RightMiddleFingerIK
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/RightMiddleFingerPole
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/RightPinkyFingerPole
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/RightRingFingerIK
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/RightRingFingerPole
+        weight: 1
+      - path: Armature/Root/Hips/Torso/RightShoulder/BaseBone_008/RightForearm/BaseBone_012/RightThumbIK
+        weight: 1
+      - path: Armature/Root/LeftHip
+        weight: 1
+      - path: Armature/Root/LeftHip/LeftFootIK
+        weight: 1
+      - path: Armature/Root/LeftHip/LeftFootIK/LeftFoot
+        weight: 1
+      - path: Armature/Root/LeftHip/LeftFootIK/LeftFoot/LeftToes
+        weight: 1
+      - path: Armature/Root/LeftHip/LeftThigh
+        weight: 1
+      - path: Armature/Root/LeftHip/LeftThigh/LeftShin
+        weight: 1
+      - path: Armature/Root/RightHip
+        weight: 1
+      - path: Armature/Root/RightHip/RightFootIK
+        weight: 1
+      - path: Armature/Root/RightHip/RightFootIK/RightFoot
+        weight: 1
+      - path: Armature/Root/RightHip/RightFootIK/RightFoot/RightToes
+        weight: 1
+      - path: Armature/Root/RightHip/RightThigh
+        weight: 1
+      - path: Armature/Root/RightHip/RightThigh/RightShin
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
