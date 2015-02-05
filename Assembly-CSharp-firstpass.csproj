@@ -58,6 +58,7 @@
      <Compile Include="Assets\Plugins\ChatApi\IChatClientListener.cs" />
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <None Include="Assets\Plugins\release_history.txt" />
+     <None Include="Assets\Models\Maps\Materials\Location of texture grabs.txt" />
      <None Include="Assets\Photon Unity Networking\readme.txt" />
      <None Include="Assets\Photon Unity Networking\changelog.txt" />
      <None Include="Assets\Plugins\Photon3Unity3D.xml" />
