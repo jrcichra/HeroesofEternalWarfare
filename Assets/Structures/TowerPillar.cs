@@ -27,7 +27,7 @@ public class TowerPillar : MonoBehaviour {
 					temp = true;
 				}
 				if (matt.name == "Team (Instance)") {
-					matt.color = this.glowColor;
+					matt.color = this.teamColor;
 					temp = true;
 				}
 				
