@@ -27,8 +27,8 @@ local.properties
 .cproject
 
 # Unity
-.unityproj
-.csproj
+*.unityproj
+*.csproj
 
 # PDT-specific
 .buildpath
