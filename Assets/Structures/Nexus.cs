@@ -28,7 +28,7 @@ public class Nexus : MonoBehaviour {
 					temp = true;
 				}
 				if (matt.name == "Team (Instance)") {
-					matt.color = this.glowColor;
+					matt.color = this.teamColor;
 					temp = true;
 				}
 				
