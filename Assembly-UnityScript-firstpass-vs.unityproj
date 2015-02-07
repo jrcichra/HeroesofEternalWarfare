@@ -52,6 +52,7 @@
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
      <None Include="Assets\Plugins\release_history.txt" />
+     <None Include="Assets\Models\Maps\Materials\Location of texture grabs.txt" />
      <None Include="Assets\Photon Unity Networking\readme.txt" />
      <None Include="Assets\Photon Unity Networking\changelog.txt" />
      <None Include="Assets\Plugins\Photon3Unity3D.xml" />
@@ -59,7 +60,7 @@
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/Justin/Documents/Git Projects/HeroesofEternalWarfare/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ <HintPath>C:/Users/voper/Documents/GitHub/HoEW/HeroesofEternalWarfare/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
