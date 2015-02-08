@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Structures\TowerPillar.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Structures\Team.cs">
     <Files>
-      <File FileName="Assets\Structures\Nexus.cs" Line="38" Column="3" />
-      <File FileName="Assets\Structures\TowerPillar.cs" Line="37" Column="3" />
+      <File FileName="Assets\Structures\Team.cs" Line="6" Column="2" />
+      <File FileName="Assets\Structures\Nexus.cs" Line="37" Column="4" />
+      <File FileName="Assets\Structures\TowerPillar.cs" Line="27" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
