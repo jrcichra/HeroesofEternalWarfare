@@ -104,6 +104,7 @@
      <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SmoothSyncMovement.cs" />
      <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SupportLogger.cs" />
      <Compile Include="Assets\Photon Unity Networking\UtilityScripts\TimeKeeper.cs" />
+     <Compile Include="Assets\Structures\Drill.cs" />
      <Compile Include="Assets\Structures\Nexus.cs" />
      <Compile Include="Assets\Structures\Team.cs" />
      <Compile Include="Assets\Structures\TeamColor.cs" />
