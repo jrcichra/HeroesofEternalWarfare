@@ -1,13 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Structures\Drill.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\NetworkManager.cs">
     <Files>
-      <File FileName="Assets\Structures\Common.cs" Line="5" Column="22" />
-      <File FileName="Assets\Structures\Barrier.cs" Line="5" Column="22" />
-      <File FileName="Assets\Structures\Drill.cs" Line="4" Column="20" />
-      <File FileName="Assets\Structures\Team.cs" Line="1" Column="1" />
-      <File FileName="Assets\Structures\Nexus.cs" Line="16" Column="3" />
-      <File FileName="Assets\Structures\TowerPillar.cs" Line="16" Column="3" />
+      <File FileName="Assets\Scripts\NetworkManager.cs" Line="57" Column="21" />
+      <File FileName="..\..\Unity Projects\MultiFPS\Assets\NetworkCharacter.cs" Line="1" Column="1" />
+      <File FileName="..\..\Unity Projects\MultiFPS\Assets\NetworkManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
