@@ -104,6 +104,8 @@
      <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SmoothSyncMovement.cs" />
      <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SupportLogger.cs" />
      <Compile Include="Assets\Photon Unity Networking\UtilityScripts\TimeKeeper.cs" />
+     <Compile Include="Assets\Scripts\NetworkCharacter.cs" />
+     <Compile Include="Assets\Scripts\NetworkManager.cs" />
      <Compile Include="Assets\Structures\Barrier.cs" />
      <Compile Include="Assets\Structures\Common.cs" />
      <Compile Include="Assets\Structures\Drill.cs" />
@@ -117,13 +119,13 @@
      <None Include="Assets\Photon Unity Networking\changelog.txt" />
      <None Include="Assets\Plugins\Photon3Unity3D.xml" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/voper/Documents/GitHub/HoEW/HeroesofEternalWarfare/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Justin/Documents/Git Projects/HeroesofEternalWarfare/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/voper/Documents/GitHub/HoEW/HeroesofEternalWarfare/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ <HintPath>C:/Users/Justin/Documents/Git Projects/HeroesofEternalWarfare/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
