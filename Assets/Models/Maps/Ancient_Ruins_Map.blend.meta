@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7d3b6dd846cd96f4e8b8f46312022de3
+guid: 4d8f8c12661754a47973ce27648f8266
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
@@ -33,7 +33,7 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
-    swapUVChannels: 0
+    swapUVChannels: 1
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
