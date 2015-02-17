@@ -18,6 +18,9 @@ public class Common : MonoBehaviour {
 				if (matt.name == "Team (Instance)") {
 					matt.color = team.teamColor;
 				}
+				if (matt.name == "Team_A (Instance)") {
+					matt.color = team.teamColor;
+				}
 			}
 		}
 	}
