@@ -7,7 +7,9 @@ public class NetworkManager : MonoBehaviour {
 	Nexus[] spawnSpots;
 	public float x_Offset;
 	public float y_Offset; 
-	public float z_Offset; 
+	public float z_Offset;
+
+	int count = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -21,7 +23,7 @@ public class NetworkManager : MonoBehaviour {
 	}
 
 	void Connect() {
-		PhotonNetwork.ConnectUsingSettings ("HoEW v0.01");
+		PhotonNetwork.ConnectUsingSettings ("HoEW v0.03");
 	}
 
 	void OnGUI() {
@@ -44,6 +46,7 @@ public class NetworkManager : MonoBehaviour {
 		SpawnMyPlayer();
 	}
 	void SpawnMyPlayer(){
+		count += 1;
 		if(spawnSpots == null) {
 			Debug.LogError ("No Nexus's?");
 			return;
@@ -51,10 +54,11 @@ public class NetworkManager : MonoBehaviour {
 
 		Nexus mySpawnSpot = spawnSpots[ Random.Range (0, spawnSpots.Length) ];
 		GameObject myPlayerGO = (GameObject)PhotonNetwork.Instantiate("Player",mySpawnSpot.transform.position + new Vector3 (x_Offset, y_Offset, z_Offset) , mySpawnSpot.transform.rotation, 0);
-		((MonoBehaviour)myPlayerGO.GetComponent("FPSInputController")).enabled = true;
+		myPlayerGO.name = "Player_" + count;
 		MenuCam.enabled = false;
 
+		((MonoBehaviour)myPlayerGO.GetComponent("FPSInputController")).enabled = true;
 		((MonoBehaviour)myPlayerGO.GetComponent("MouseLook")).enabled = true;
-		myPlayerGO.transform.FindChild("Main Camera").gameObject.SetActive(true);
+		myPlayerGO.transform.FindChild("myCamera").gameObject.SetActive(true);
 	}
 }
