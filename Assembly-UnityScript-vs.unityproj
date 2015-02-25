@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_4_6_2;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_2;UNITY_4_6;UNITY_64;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -46,20 +46,38 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Structures\NewBehaviourScript.js" />
+     <Compile Include="Assets\Models\Monster\scripts\attacksounds.js" />
+     <Compile Include="Assets\Models\Monster\scripts\breakable.js" />
+     <Compile Include="Assets\Models\Monster\scripts\breakparts.js" />
+     <Compile Include="Assets\Models\Monster\scripts\cameraRoot.js" />
+     <Compile Include="Assets\Models\Monster\scripts\footsounds.js" />
+     <Compile Include="Assets\Models\Monster\scripts\mace.js" />
+     <Compile Include="Assets\Models\Monster\scripts\monstercontroller.js" />
+     <Compile Include="Assets\Models\Monster\scripts\playrandomsound.js" />
+     <Compile Include="Assets\Models\Monster\scripts\wait&amp;destroy.js" />
+     <None Include="Assets\Models\Earthborn Troll\Shader\Alpha_Texture.shader" />
+     <None Include="Assets\Models\Earthborn Troll\Shader\DoubleSided-Light-Spec.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBloom.shader" />
      <None Include="Assets\Plugins\release_history.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
      <None Include="Assets\Models\Maps\Materials\Location of texture grabs.txt" />
+     <None Include="Assets\Models\Monster\shaders\vertexAnim.shader" />
+     <None Include="Assets\Models\Monster\shaders\bumpSpecmap.shader" />
+     <None Include="Assets\Models\Monster\shaders\metalA.shader" />
+     <None Include="Assets\Models\Monster\shaders\caveShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Models\Monster\shaders\monsterShader.shader" />
      <None Include="Assets\Photon Unity Networking\readme.txt" />
      <None Include="Assets\Photon Unity Networking\changelog.txt" />
      <None Include="Assets\Plugins\Photon3Unity3D.xml" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/voper/Documents/GitHub/HoEW/HeroesofEternalWarfare/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/GitHub/HeroesofEternalWarfare/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/voper/Documents/GitHub/HoEW/HeroesofEternalWarfare/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ <HintPath>C:/GitHub/HeroesofEternalWarfare/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
