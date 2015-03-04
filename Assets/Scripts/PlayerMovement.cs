@@ -44,7 +44,6 @@ public class PlayerMovement : Photon.MonoBehaviour {
 				Application.Quit ();
 			}
 		AdjustAimAngle();
-		
 	}
 }
 

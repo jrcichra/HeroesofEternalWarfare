@@ -62,22 +62,16 @@
      <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\Views\PhotonTransformViewEditor.cs" />
      <None Include="Assets\Models\Earthborn Troll\Shader\Alpha_Texture.shader" />
      <None Include="Assets\Models\Earthborn Troll\Shader\DoubleSided-Light-Spec.shader" />
-     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBloom.shader" />
      <None Include="Assets\Plugins\release_history.txt" />
-     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
      <None Include="Assets\Models\Maps\Materials\Location of texture grabs.txt" />
      <None Include="Assets\Models\Monster\shaders\vertexAnim.shader" />
      <None Include="Assets\Models\Monster\shaders\bumpSpecmap.shader" />
      <None Include="Assets\Models\Monster\shaders\metalA.shader" />
      <None Include="Assets\Models\Monster\shaders\caveShader.shader" />
-     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
      <None Include="Assets\Models\Monster\shaders\monsterShader.shader" />
      <None Include="Assets\Photon Unity Networking\readme.txt" />
      <None Include="Assets\Photon Unity Networking\changelog.txt" />
      <None Include="Assets\Plugins\Photon3Unity3D.xml" />
- <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/GitHub/HeroesofEternalWarfare/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -97,8 +91,6 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
       <Project>{0208D0CC-9446-F172-9217-F7821220F830}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-CSharp-vs.csproj">
-      <Project>{1F4D47B7-85DD-012C-3E22-E0EABEE3D4F5}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
