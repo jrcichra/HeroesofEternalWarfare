@@ -1,4 +1,4 @@
-Initialize engine version: 4.6.2f1 (bd99309c2ad7)
+Initialize engine version: 5.0.0f4 (5b98b70ebeb9)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
@@ -14,26 +14,31 @@ Platform assembly: C:\GitHub\HeroesofEternalWarfare\Builds\v003_Data\Managed\Ass
 Loading C:\GitHub\HeroesofEternalWarfare\Builds\v003_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\GitHub\HeroesofEternalWarfare\Builds\v003_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
 Loading C:\GitHub\HeroesofEternalWarfare\Builds\v003_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\GitHub\HeroesofEternalWarfare\Builds\v003_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\GitHub\HeroesofEternalWarfare\Builds\v003_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
 Platform assembly: C:\GitHub\HeroesofEternalWarfare\Builds\v003_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\GitHub\HeroesofEternalWarfare\Builds\v003_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\GitHub\HeroesofEternalWarfare\Builds\v003_Data\Managed\Photon3Unity3D.dll (this message is harmless)
 Loading C:\GitHub\HeroesofEternalWarfare\Builds\v003_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+Platform assembly: C:\GitHub\HeroesofEternalWarfare\Builds\v003_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\GitHub\HeroesofEternalWarfare\Builds\v003_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 - Completed reload, in  0.077 seconds
 desktop: 1920x1080 60Hz; virtual: 3360x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+<RI> Initialized touch support.
 Platform assembly: C:\GitHub\HeroesofEternalWarfare\Builds\v003_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\GitHub\HeroesofEternalWarfare\Builds\v003_Data\Managed\System.dll (this message is harmless)
 OnJoinedLobby
  
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
 
 OnPhotonRandomJoinFailed
  
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
 
 OnJoinedRoom
  
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
 
 Platform assembly: C:\GitHub\HeroesofEternalWarfare\Builds\v003_Data\Managed\Boo.Lang.dll (this message is harmless)

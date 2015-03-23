@@ -57,8 +57,8 @@ var addvector : Vector3;
 
 function Awake()
 {
- 	rigidbody.freezeRotation = true;
-	rigidbody.useGravity = false;
+ 	GetComponent.<Rigidbody>().freezeRotation = true;
+	GetComponent.<Rigidbody>().useGravity = false;
     
 }
 function Start()
@@ -70,16 +70,16 @@ function FixedUpdate()
 {
  	 
  	 var animator = GetComponent(Animator);
- 	 forward = camera.main.transform.forward;
+ 	 forward = GetComponent.<Camera>().main.transform.forward;
 	 right = new Vector3(forward.z, 0, -forward.x);
 	 var hor = Input.GetAxis("Horizontal");
 	 var ver = Input.GetAxis("Vertical");
 	 var targetDirection : Vector3 = (hor * right) + (ver * forward);
 	 targetDirection = targetDirection.normalized;
 	
-	 var velocity = rigidbody.velocity;
-	 var z = rigidbody.velocity.z;
-	 var x = rigidbody.velocity.x;
+	 var velocity = GetComponent.<Rigidbody>().velocity;
+	 var z = GetComponent.<Rigidbody>().velocity.z;
+	 var x = GetComponent.<Rigidbody>().velocity.x;
 	 var currentmagnitude = new Vector3(x,0,z);
 	 var localmagnitude = transform.InverseTransformDirection(currentmagnitude);
 	 if (fightmodus)
@@ -162,7 +162,7 @@ function FixedUpdate()
 		velocityChange.x = Mathf.Clamp(velocityChange.x, -maxVelocityChange, maxVelocityChange);
 	 	velocityChange.z = Mathf.Clamp(velocityChange.z, -maxVelocityChange, maxVelocityChange);
 		velocityChange.y = 0;
-	 	rigidbody.AddForce(velocityChange, ForceMode.VelocityChange);
+	 	GetComponent.<Rigidbody>().AddForce(velocityChange, ForceMode.VelocityChange);
 	 	
 		
 		animator.SetFloat("speed",velocityanim,dampTime, 0.2);
@@ -175,7 +175,7 @@ function FixedUpdate()
 			myaudiosource.loop = false;
 			myaudiosource.pitch = 1;
 			myaudiosource.Play();
-			rigidbody.velocity = Vector3(velocity.x, CalculateJumpVerticalSpeed(), velocity.z);
+			GetComponent.<Rigidbody>().velocity = Vector3(velocity.x, CalculateJumpVerticalSpeed(), velocity.z);
 			animator.SetBool("jump",true);
 		}
 		else
@@ -193,7 +193,7 @@ function FixedUpdate()
       
 	 animator.SetBool("grounded",grounded);	 
      
-     rigidbody.AddForce(Vector3 (0, -gravity * rigidbody.mass, 0));
+     GetComponent.<Rigidbody>().AddForce(Vector3 (0, -gravity * GetComponent.<Rigidbody>().mass, 0));
      
 	
      testground(); 

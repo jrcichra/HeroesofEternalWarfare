@@ -11,7 +11,7 @@ public class Common : MonoBehaviour {
 	public void SetTeamColor() {
 		TeamColor[] teamColors = GetComponentsInChildren< TeamColor >();
 		foreach (TeamColor teamColor in teamColors) {
-			foreach (Material matt in teamColor.renderer.materials) {
+			foreach (Material matt in teamColor.GetComponent<Renderer>().materials) {
 				if (matt.name == "Glow (Instance)") {
 					matt.SetColor  ("_TintColor", team.glowColor );
 				}
