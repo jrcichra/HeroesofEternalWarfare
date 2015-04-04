@@ -16,7 +16,7 @@ Sorry, but at this time there is not yet anything to install. Please continue to
 
 ## Contributing
 We are accepting new contributors!
-If you want to help us, contact [Feliks Montez](mailto:feliks.montez@gmail.com) and we will consider adding you as a contributor.
+If you want to help us, contact [Feliks Montez](mailto:hoew@demodude123.netne.net) and we will consider adding you as a contributor.
 
 ## Team Advice
 > "Now is the most time you'll ever have to work toward your goals. Don't put them off until you have more time. You will never have more time."
