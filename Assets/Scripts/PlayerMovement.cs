@@ -33,7 +33,7 @@ public class PlayerMovement : Photon.MonoBehaviour {
 			direction = direction.normalized;
 		}
 		anim.SetFloat ("Speed", direction.magnitude);
-
+			Debug.Log(direction.magnitude);
 		//handle jumping
 		if (cc.isGrounded && Input.GetButton ("Jump")) { //Hold space for jump
 			verticalVelocity = jumpSpeed;
