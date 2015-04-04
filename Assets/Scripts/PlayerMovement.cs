@@ -8,7 +8,7 @@ public class PlayerMovement : Photon.MonoBehaviour {
 	 * 
 	 */ 
 
-	public float speed = 10f;
+	public float speed;
 	public float jumpSpeed = 9f;
 	public float gravityModifier = 1;
 	Vector3 direction = Vector3.zero;
@@ -19,11 +19,12 @@ public class PlayerMovement : Photon.MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		cc = GetComponent<CharacterController> ();
-		//anim = GetComponent<Animator> ();
+		anim = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		Debug.Log (speed);
 		if(gameObject.name == ("Player_1")){
 		//WASD forward/back/left/rigth movement is stored in 'direction'
 		direction = transform.rotation * new Vector3 (Input.GetAxis ("Horizontal"), 0, Input.GetAxis ("Vertical"));		//normalized fixes strafing being faster than single button movements
@@ -31,7 +32,7 @@ public class PlayerMovement : Photon.MonoBehaviour {
 		if (direction.magnitude > 1f) {
 			direction = direction.normalized;
 		}
-		//anim.SetFloat ("Speed", direction.magnitude);
+		anim.SetFloat ("Speed", direction.magnitude);
 
 		//handle jumping
 		if (cc.isGrounded && Input.GetButton ("Jump")) { //Hold space for jump
